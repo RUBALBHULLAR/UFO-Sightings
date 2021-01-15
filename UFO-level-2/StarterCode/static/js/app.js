@@ -32,7 +32,7 @@ button.on("click", function() {
       var inputElement = d3.select("#input");
       // Get the value property of the input date, state, shape
       var inputValue = inputElement.property("value");
-      
+      console.log(inputValue);
 
 
 
