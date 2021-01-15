@@ -30,6 +30,9 @@ button.on("click", function() {
 
       // Select the input date, state, shape and get the raw HTML nodes
       var inputElement = d3.select("#input");
+      // Get the value property of the input date, state, shape
+      var inputValue = inputElement.property("value");
+      
 
 
 
