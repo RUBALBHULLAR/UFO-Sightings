@@ -29,5 +29,7 @@ button.on("click",function(){
 
     //select the input data get the raw html nodes
     var inputElement=d3.select("#datetime");
+    //Get the value property of input dta,state,shape
+    
 });
 
