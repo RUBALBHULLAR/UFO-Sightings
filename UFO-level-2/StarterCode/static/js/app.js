@@ -20,9 +20,7 @@ tableData.forEach(function(ufoSighting) {
         cell.text(value);
 
       });
-
-
-
-
-
 });
+
+
+// Select the button
