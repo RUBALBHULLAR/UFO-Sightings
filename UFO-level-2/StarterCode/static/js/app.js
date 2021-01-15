@@ -43,6 +43,11 @@ button.on("click", function() {
          sighting.shape   === inputValue);
 
 
+    // console.log filter values
+    console.log(filteredData);
+
+
+
 
 
 });
