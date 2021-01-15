@@ -32,7 +32,16 @@ button.on("click", function() {
       var inputElement = d3.select("#input");
       // Get the value property of the input date, state, shape
       var inputValue = inputElement.property("value");
-      console.log(inputValue);
+      //console.log(inputValue);
+
+      //Filer Dat with datetimr equal to input value
+      var filteredData = tableData.filter(sighting =>
+         sighting.datetime=== inputValue||
+         sighting.city    === inputValue||
+         sighting.state   === inputValue||
+         sighting.country === inputValue||
+         sighting.shape   === inputValue);
+
 
 
 
