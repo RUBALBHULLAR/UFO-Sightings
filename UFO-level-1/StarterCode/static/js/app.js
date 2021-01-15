@@ -16,9 +16,8 @@ tableData.forEach(function(ufoSighting){
     Object.entries(ufoSighting).forEach(function([key,value])
     {
         console.log(key,value);
-    }
-
-
-
-
-})
+        //Append  a cell too the row for each value
+        var cell = row.append("td");
+       cell.text(value);
+    });
+});
