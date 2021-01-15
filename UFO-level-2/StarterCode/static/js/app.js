@@ -28,9 +28,9 @@ var button = d3.select("#filter-btn");
 button.on("click", function() {
     tbody.html("");
 
-     // Select the input date, state, shape and get the raw HTML nodes
+      // Select the input date, state, shape and get the raw HTML nodes
       var inputElement = d3.select("#input");
-      
+
 
 
 });
