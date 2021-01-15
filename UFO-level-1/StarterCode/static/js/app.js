@@ -37,5 +37,14 @@ button.on("click",function(){
     var filteredData = tableData.filter(sighting => sighting.datetime === inputValue);
     // console.log filter values
     console.log(filteredData);
+
+    filteredData.forEach(function(selections) {
+    
+        console.log(selections);
+        // Append one table row `tr` for each UFO Sighting object
+        var row = tbody.append("tr");
+
+    });
+
 });
 
