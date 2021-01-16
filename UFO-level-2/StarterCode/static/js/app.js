@@ -46,6 +46,12 @@ button.on("click", function() {
     // console.log filter values
     console.log(filteredData);
 
+  filteredData.forEach(function(selections){
+    console.log(selections);
+    
+
+  });
+
 
     
 
