@@ -50,7 +50,13 @@ button.on("click", function() {
     console.log(selections);
     // Append one table row `tr` for each UFO Sighting object
     var row = tbody.append("tr");
-    
+    // Use `Object.entries` to console.log each UFO Sighting value
+    Object.entries(selections).forEach(function([key, value]) {
+      console.log(key, value);
+      
+
+
+
   });
 
 
