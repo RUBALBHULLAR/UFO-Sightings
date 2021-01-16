@@ -53,14 +53,14 @@ button.on("click", function() {
     // Use `Object.entries` to console.log each UFO Sighting value
     Object.entries(selections).forEach(function([key, value]) {
       console.log(key, value);
-      
+      // Append a cell to the row for each value
 
+
+    });
 
 
   });
 
 
     
-
-
 });
