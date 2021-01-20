@@ -27,7 +27,4 @@ Code that will create a table dynamically based upon a [dataset we provide](Star
 
 - - -
 
-### Dataset
-
-* [UFO Sightings Data](StarterCode/static/js/data.js)
 
