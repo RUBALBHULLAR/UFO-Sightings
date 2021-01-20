@@ -31,12 +31,3 @@ Code that will create a table dynamically based upon a [dataset we provide](Star
 
 * [UFO Sightings Data](StarterCode/static/js/data.js)
 
-- - -
-
-**Good luck!**
-
-- - -
-
-### Copyright
-
-Trilogy Education Services © 2019. All Rights Reserved.
